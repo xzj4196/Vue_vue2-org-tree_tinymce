@@ -158,9 +158,9 @@
       // Adropdown
     },
     methods: {
-      renderContent(h, data) {
-        return data.label
-      },
+      // renderContent(h, data) {
+      //   return data.label
+      // },
       onExpand(data) {
         if ("expand" in data) {
           data.expand = !data.expand
